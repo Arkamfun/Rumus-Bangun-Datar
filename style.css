@@ -1,0 +1,100 @@
+body {
+  background: #ffff;
+}
+
+.night {
+  background: #181716;
+  color: white;
+}
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+}
+
+.persegi {
+  width: 200px;
+  height: 200px;
+  background: #9bd1e5;
+}
+
+.segitiga {
+  width: 0;
+  height: 0;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-bottom: 200px solid #9bd1e5;
+}
+
+.lingkaran {
+  width: 200px;
+  height: 200px;
+  background: #9bd1e5;
+  border-radius: 50%;
+}
+
+.persegiPanjang {
+  width: 400px;
+  height: 200px;
+  background: #9bd1e5;
+}
+
+/* persegi style */
+
+#persegi {
+  transition: 0.5s;
+}
+
+#persegi:focus {
+  background: yellow;
+  color: black;
+}
+#persegi:hover {
+  width: 100px;
+}
+
+/* persegi panjang */
+#persegiPanjang {
+  transition: 0.5s;
+}
+
+#persegiPanjang:focus {
+  background: yellow;
+  color: black;
+}
+
+#persegiPanjang:hover {
+  width: 150px;
+}
+
+/* lingkaran style */
+
+#lingkaran {
+  transition: 0.5s;
+}
+
+#lingkaran:focus {
+  background: yellow;
+  color: black;
+}
+
+#lingkaran:hover {
+  width: 120px;
+}
+
+/* segitiga Style */
+
+#segitiga {
+  transition: 0.5s;
+}
+
+#segitiga:focus {
+  background: yellow;
+  color: black;
+}
+
+#segitiga:hover {
+  width: 120px;
+}
